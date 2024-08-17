@@ -3,7 +3,7 @@ const router = express.Router();
 const Card = require("../models/card.model.js");
 
 router.post("/cards", async (req, res) => {
-  console.log("Incoming request body:", req.body); // Log the request body
+  console.log("Incoming request body:", req.body); 
   try {
     const { id, title, description } = req.body;
     if (!id || !title || !description) {
