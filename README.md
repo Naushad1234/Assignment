@@ -17,3 +17,6 @@ Run npm install concurrently --save-dev to install the concurrently package. Thi
 Start the Project:
 
 Run npm start to start both the frontend and backend servers concurrently.
+
+Note: Install the concurrently package in the root 
+
