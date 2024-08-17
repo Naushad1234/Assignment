@@ -1,40 +1,19 @@
-1. Download the ZIP File:
+Download the ZIP File:
 
 Download and extract the ZIP file of the project from GitHub.
-2. Install Frontend Dependencies:
 
-Open a terminal or command-line interface (CLI).
-Navigate to the frontend directory:
-bash
-Copy code
-cd path/to/your/project/frontend
-Install the required frontend dependencies:
-bash
-Copy code
-npm install
-3. Install Backend Dependencies:
+Install Frontend Dependencies:
 
-Change directory to the backend folder:
-bash
-Copy code
-cd ../backend
-Install the required backend dependencies:
-bash
-Copy code
-npm install
-4. Install concurrently Package:
+Go to the frontend directory.
+Run npm install to install the necessary dependencies for the frontend.
+Install Backend Dependencies:
 
-Return to the root directory of your project:
-bash
-Copy code
-cd ..
-Install the concurrently package to manage running both frontend and backend servers:
-bash
-Copy code
-npm install concurrently --save-dev
-5. Start the Project:
+Change to the backend directory.
+Run npm install to install the necessary dependencies for the backend.
+Install concurrently Package:
 
-Run the following command to start both the frontend and backend servers concurrently:
-bash
-Copy code
-npm start
+Return to the root directory of the project.
+Run npm install concurrently --save-dev to install the concurrently package. This package allows you to run both the frontend and backend servers at the same time.
+Start the Project:
+
+Run npm start to start both the frontend and backend servers concurrently.
